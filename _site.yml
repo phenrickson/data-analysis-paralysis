@@ -5,14 +5,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about_me.html
     - text: "Board Games"
       href: boardgames.html
     - text: "AHL"
       href: test.html
     - text: "Talks"
       href: talks.html
+    - text: "About Me"
+      href: about_me.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:<phil.henrickson@gmail.com>
