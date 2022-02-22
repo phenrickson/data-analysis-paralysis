@@ -10,14 +10,14 @@ pagetitle: "Phil Henrickson"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
-### Now What? Model Building, Science, and Analytics ([slides](https://github.com/phenrickson/talks/blob/main/now_what.pdf))
+#### Now What? Model Building, Science, and Analytics ([slides](https://github.com/phenrickson/talks/blob/main/now_what.pdf))
 
 Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. 
 
-### What is this thing called data science? ([slides](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf))
+#### What is this thing called data science? ([slides](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf))
 
 Data science is on the roadmap for many organizations. What is data science? What can it do? What can it not do? 
 
-### The Talk on Talks ([slides](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
+#### The Talk on Talks ([slides](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
 
 This is a compilation of advice and lessons I've learned from years of giving presentations and talks.
