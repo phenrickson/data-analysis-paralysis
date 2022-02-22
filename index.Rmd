@@ -3,4 +3,6 @@ title: "Data Analysis Paralysis"
 author: Phil Henrickson
 ---
 
-Using data science to (over) analyze the world of boardgames, hockey, and other things. But mostly boardgames.
+Using data science to (over) analyze the world of boardgames, hockey, and other things. 
+
+But mostly boardgames.

@@ -5,13 +5,21 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Test"
+    - text: "About Me"
+      href: about_me.html
+    - text: "Board Game Projects"
+      href: test.html
+    - text: "AHL Projects"
+      href: test.html
+    - text: "Talks"
       href: test.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:<phil.henrickson@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/phenrickson/
+    - icon: fab fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/phenrickson/
 output:
   html_document:
     theme: cerulean

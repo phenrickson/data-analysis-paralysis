@@ -1,6 +1,14 @@
 ---
 title: "test"
 author: "Phil Henrickson"
+output: 
+  html_document:
+    toc: TRUE #adds a Table of Contents
+    number_sections: TRUE #number your headings/sections
+    toc_float: TRUE #let your ToC follow you as you scroll
+    theme: cerulean #select a different theme from the default
+    keep_md: no
+    fig.caption: yes
 ---
 
 ```{r setup, include=FALSE}
