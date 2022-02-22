@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Test"
+      href: test.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:<phil.henrickson@gmail.com>
