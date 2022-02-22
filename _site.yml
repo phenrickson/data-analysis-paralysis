@@ -3,8 +3,6 @@ output_dir: "docs"
 navbar:
   title: "Data Analysis Paralysis"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Board Games"
       href: boardgames.html
     - text: "AHL"
