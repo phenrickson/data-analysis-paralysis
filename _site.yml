@@ -8,7 +8,7 @@ navbar:
     - text: "Board Games"
       href: boardgames.html
     - text: "AHL"
-      href: test.html
+      href: ahl.html
     - text: "Talks"
       href: talks.html
     - text: "About Me"
