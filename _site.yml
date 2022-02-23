@@ -1,5 +1,5 @@
 name: "data-analysis-paralysis"
-output_dir: "docs"
+output_dir: "."
 navbar:
   title: "Data Analysis Paralysis"
   left:
