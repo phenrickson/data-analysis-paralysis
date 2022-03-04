@@ -15,7 +15,3 @@ pagetitle: "Phil Henrickson"
 
 4. [**Finding Boardgame "Neighbors"**]():
 
-
-
-
-
