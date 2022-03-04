@@ -13,6 +13,6 @@ I work as a consulting data scientist and have a background in academic research
 
 In my free time, I frequently work on side projects to explore new methods and techniques for my work in consulting. This website serves as a repository for some of my work, most of which is devoted to board games and hockey.
 
-I am avid user of R and the tidyverse and I love using techniques from data science to (over) analyze the world of boardgames, hockey, and other things. 
+I am avid user of R and the tidyverse, and I love using techniques from data science to (over) analyze the world of boardgames, hockey, and other things. 
 
 But mostly boardgames.
