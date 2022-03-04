@@ -3,9 +3,6 @@ title: " "
 pagetitle: "Phil Henrickson"
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
-
 ## Presentations Delivered
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
