@@ -3,8 +3,6 @@ title: " "
 pagetitle: "Phil Henrickson"
 ---
 
-## Data Analysis Paralysis
-
 Using techniques from data science to (over) analyze the world of boardgames, hockey, and other things. 
 
 But mostly boardgames.
