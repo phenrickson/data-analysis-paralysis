@@ -7,14 +7,32 @@ pagetitle: "Phil Henrickson"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
-#### Now What? Model Building, Science, and Analytics ([slides](https://github.com/phenrickson/talks/blob/main/now_what.pdf))
+1. [Now What? Model Building, Science, and Analytics](https://github.com/phenrickson/talks/blob/main/now_what.pdf)
 
-Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. 
+<center>
 
-#### What is this thing called data science? ([slides](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf))
+![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/now_what_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/now_what_models.png){width=45%}
 
-Data science is on the roadmap for many organizations. What is data science? What can it do? What can it not do? 
+</center>
 
-#### The Talk on Talks ([slides](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
+Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. This, naturally, leads to an exploration of expected goals models in minor league hockey.
 
-This is a compilation of advice and lessons I've learned from years of giving presentations and talks.
+2. [What is this thing called data science?](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf)
+
+<center>
+
+![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/what_is_science_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/what_is_science_model.png){width=45%}
+
+</center>
+
+Data science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do? 
+
+3. [The Talk on Talks](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
+
+<center>
+
+![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/talk_on_talks_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/talk_on_talks_point.png){width=45%}
+
+</center>
+
+I've given a lot of talks as a professor and as a consultant. This a compilation of advice and lessons I've picked up over the years from giving talks. Massively inspired by a presentation my advisor gave in grad school.
