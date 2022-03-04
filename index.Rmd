@@ -3,6 +3,15 @@ title: " "
 pagetitle: "Phil Henrickson"
 ---
 
-Using techniques from data science to (over) analyze the world of boardgames, hockey, and other things. 
+## Analysis Paralysis
 
+"an inability to make a decision due to over-thinking a problem, particularly when there is too much data to process"
+
+## What is this?
+
+I work as a consulting data scientist and have a background in academic research (PhD in Political Science).
+
+In my free time, I frequently work on side projects to explore new methods and techniques for my work in consulting. This website serves as a repository for some of my work, most of which is devoted to board games and hockey.
+
+I use techniques from data science to (over) analyze the world of boardgames, hockey, and other things. 
 But mostly boardgames.
