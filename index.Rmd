@@ -3,11 +3,11 @@ title: " "
 pagetitle: "Phil Henrickson"
 ---
 
-### Analysis Paralysis
+## Analysis Paralysis
 
 "an inability to make a decision due to over-thinking a problem, particularly when there is too much data to process"
 
-### What is this?
+## What is this?
 
 I work as a consulting data scientist and have a background in academic research (PhD in Political Science).
 
