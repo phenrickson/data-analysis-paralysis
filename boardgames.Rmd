@@ -5,7 +5,7 @@ pagetitle: "Phil Henrickson"
 
 ## Board Game Projects {-}
 
-[**boardgamegeek.com**](https://boardgamegeek.com) is a treasure chest of data if you're into boardgames. What can we learn from this data? Here are the projects I've been working on using techniques from data science with data from BGG.
+If you love boardgames and data, [**boardgamegeek.com**](https://boardgamegeek.com) is a treasure chest of data on every boardgame in existence. What can we learn from this data? These are the projects I've been working on using techniques from data science with data from BGG.
 
 1. [**Predicting BGG's Top Upcoming Games**](https://phenrickson.github.io/bgg_reports/predicting_bgg_outcomes.html)
 
