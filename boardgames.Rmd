@@ -3,7 +3,7 @@ title: " "
 pagetitle: "Phil Henrickson"
 ---
 
-## Board Games {-}
+## Board Game Projects {-}
 
 [**boardgamegeek.com**](https://boardgamegeek.com) is a treasure chest of data if you're into boardgames. What can we learn from this data? Here are the projects I've been working on using techniques from data science with data from BGG.
 
