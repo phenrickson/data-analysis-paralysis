@@ -21,7 +21,7 @@ What upcoming board games are **likely to be popular within the BGG community?**
 
 Last updated: `r Sys.Date()`
 
-2. [**Adjusting BGG Ratings: Complexity and 'The Hotness'**)](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
+2. [**Adjusting BGG Ratings: Complexity and 'The Hotness'**](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
 <center>
 
@@ -31,7 +31,9 @@ Last updated: `r Sys.Date()`
 
 I use a variety techniques to make adjustments to the Geek rating on boardgamegeek.First, I compute **Complexity-Adjusted Ratings** in order to identify which games get the most bang for their complexity buck. I am not the first to develop the method for computing these ratings, which is a very simple statistical model, but I do use that method to keep a list of up-to-date complexity ratings based on my latest pull of games from BGG. Second, I amend the formula for the geek rating to place a greater weight on the popularity of the game, which I have found can mitigate a tendency of the geek ratings to skew towards the 'the hotness'.
 
-3. [**Predicting Reviewer Collections, or How to Create an Artificial Shut Up and Sit Down**]():
+[Rankings](https://phenrickson.github.io/bgg_reports/adjusted_ratings_table.html) // [Methodology](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
-4. [**Finding Boardgame "Neighbors"**]():
+3. [**Predicting Reviewer Collections, or How to Create an Artificial Shut Up and Sit Down**]()
+
+4. [**Finding Boardgame "Neighbors"**]()
 
