@@ -36,5 +36,3 @@ Data science is on the roadmap for many organizations and businesses. What exact
 </center>
 
 I've given a lot of talks as a professor and as a consultant. This a compilation of advice and lessons I've picked up over the years from giving talks. Massively inspired by a presentation my advisor gave in grad school.
-
-<!-- 4. [**How to Succeed At Data Visualization**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf) -->
