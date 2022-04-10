@@ -55,7 +55,7 @@ This analysis can be run for anyone with a BGG account, so I've run it for a few
 
 [me](https://phenrickson.github.io/bgg_reports/mrbananagrabber_2020.html)
 
-[my brother](https://phenrickson.github.io/bgg_reports/GOBBluth89_2020.html)
+[my brother](https://phenrickson.github.io/bgg_reports/GOBbluth89_2020.html)
 
 4. [**Finding Boardgame "Neighbors"**]()
 
