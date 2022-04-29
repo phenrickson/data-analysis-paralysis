@@ -41,7 +41,7 @@ I use a variety techniques to make adjustments to the Geek rating on boardgamege
 
 Rather than trying to predict how the boardgamegeek community will rate a game, I train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to [train a model to identify games for myself](https://phenrickson.github.io/bgg_reports/mrbananagrabber_2020.html), but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection. 
 
-This analysis can be run for anyone with a BGG account, so I've run it for a few prominent reviewers to see what upcoming games they're most likely to be interested in:
+I've run this analysis for a few prominent reviewers to see what upcoming games they're most likely to be interested in:
 
 [Watch It Played](https://phenrickson.github.io/bgg_reports/Watch_It_Played_2020.html)
 
