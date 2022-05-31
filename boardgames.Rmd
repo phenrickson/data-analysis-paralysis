@@ -33,13 +33,13 @@ I use a variety techniques to make adjustments to the Geek rating on boardgamege
 
 [Rankings](https://phenrickson.github.io/bgg_reports/adjusted_ratings_table.html) // [Methodology](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
-3. [**Predicting User Collections, or How to Create an Artificial Shut Up and Sit Down**](https://phenrickson.github.io/bgg_reports/user_reports/Quinns_2020.html)
+3. [**Predicting User Collections, or How to Create an Artificial Shut Up and Sit Down**](https://phenrickson.github.io/bgg_reports/upcoming_reviewer_tables.html)
 
 ![](images/user_separation.png){width=45%} ![](images/user_predictions_table.png){width=45%}
 
 "What upcoming games should I check out?"
 
-Rather than trying to predict how the boardgamegeek community will rate a game, I train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to [train a model to identify games for myself](https://phenrickson.github.io/bgg_reports/mrbananagrabber_2020.html), but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection. 
+Rather than trying to predict how the boardgamegeek community will rate a game, I train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to [train a model to identify games for myself](https://phenrickson.github.io/bgg_reports/user_reports/mrbananagrabber_2020.html), but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection. 
 
 I've run this analysis for a few prominent reviewers to see what upcoming games they're most likely to be interested in:
 
@@ -55,7 +55,7 @@ I've run this analysis for a few prominent reviewers to see what upcoming games 
 
 [me](https://phenrickson.github.io/bgg_reports/user_reports/mrbananagrabber_2020.html)
 
-[my brother](https://phenrickson.github.io/bgg_reports/user_reports/GOBbluth89_2020.html)
+[my brother](https://phenrickson.github.io/bgg_reports/user_reports/GOBBluth89_2020.html)
 
 <!-- 4. [**Finding Boardgame "Neighbors"**]() -->
 
