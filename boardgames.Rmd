@@ -33,6 +33,8 @@ I use a variety techniques to make adjustments to the Geek rating on boardgamege
 
 [Rankings](https://phenrickson.github.io/bgg_reports/adjusted_ratings_table.html) // [Methodology](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
+Last updated: `r Sys.Date()`
+
 3. [**Predicting User Collections, or How to Create an Artificial Shut Up and Sit Down**](https://phenrickson.github.io/bgg_reports/upcoming_reviewer_tables.html)
 
 ![](images/user_separation.png){width=45%} ![](images/user_predictions_table.png){width=45%}
@@ -56,6 +58,8 @@ I've run this analysis for a few prominent reviewers to see what upcoming games 
 [me](https://phenrickson.github.io/bgg_reports/user_reports/mrbananagrabber_2020.html)
 
 [my brother](https://phenrickson.github.io/bgg_reports/user_reports/GOBBluth89_2020.html)
+
+Last updated: `r Sys.Date()`
 
 <!-- 4. [**Finding Boardgame "Neighbors"**]() -->
 
