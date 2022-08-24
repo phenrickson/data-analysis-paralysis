@@ -1,6 +1,6 @@
 ---
 title: ' '
-pagetitle: Phil Henrickson
+pagetitle: "Phil Henrickson"
 ---
 
 ## College Football Projects {-}
