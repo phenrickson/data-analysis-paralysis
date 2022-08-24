@@ -5,10 +5,25 @@ pagetitle: "Phil Henrickson"
 
 # What is this?
 
-My name is Phil Henrickson and I work as a consulting data scientist in Madison, Wisconsin for AE Business Solutions. This website serves as a repository for some of my side projects, most of which are devoted to board games and hockey. I love using techniques from data science to (over) analyze the world of boardgames, sports and other things. 
+My name is Phil Henrickson and I work as a consulting data scientist in Madison, Wisconsin for AE Business Solutions. I help clients and organizations in the areas of predictive modeling, statistical/machine learning, and data visualization. Prior to consulting, I completed my PhD in political science at Florida State University 2018, where I taught courses on international relations, political violence, and civil war. 
 
-## Analysis Paralysis
+This website serves as a repository for some of my side projects - I love using techniques from data science to (over) analyze the world of boardgames, sports and other things. Click on the links above to check out a few of my projects as well as talks I've given at various analytics symposiums. 
 
-"an inability to make a decision due to over-thinking a problem, particularly when there is too much data to process"
+---
 
-or, an adequate description of my constant state of being.
+![](images/averages_and_usersrated.png){width=45%} ![](images/ridges.png){width=40%}
+
+---
+
+![](images/elo_path.png){width=48%} ![](images/playoff_probs_2019.png){width=45%}
+
+---
+
+![](images/separation.png){width=48%} ![](images/ark_nova.png){width=40%}
+---
+
+![](images/now_what_models.png){width=48%} ![](images/user_model_assessment.png){width=40%}
+
+---
+
+![](images/golden_age.png){width=48%} ![](images/xgboost.png){width=40%}

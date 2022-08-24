@@ -7,6 +7,8 @@ pagetitle: "Phil Henrickson"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
+---
+
 1. [**Now What? Model Building, Science, and Analytics**](https://github.com/phenrickson/talks/blob/main/now_what.pdf)
 
 <center>
@@ -17,6 +19,8 @@ I frequently deliver talks at analytics meet ups and organizations throughout th
 
 Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. This, naturally, leads to an exploration of expected goals models in minor league hockey.
 
+---
+
 2. [**What is this thing called data science?**](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf)
 
 <center>
@@ -26,6 +30,8 @@ Organizations increasingly speak about being data-driven, but should this be our
 </center>
 
 Data science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do? 
+
+---
 
 3. [**The Talk on Talks**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
 

@@ -7,6 +7,8 @@ pagetitle: "Phil Henrickson"
 
 If you love boardgames and data, [**boardgamegeek.com**](https://boardgamegeek.com) is a treasure chest of data on every boardgame in existence. What can we learn from this data? These are the projects I've been working on using techniques from data science with data from BGG.
 
+---
+
 1. [**Predicting BGG's Top Upcoming Games**](https://phenrickson.github.io/bgg_reports/upcoming_games_tables.html)
 
 <center>
@@ -21,6 +23,8 @@ What upcoming board games are **likely to be popular within the BGG community?**
 
 Last updated: `r Sys.Date()`
 
+---
+
 2. [**Adjusting BGG Ratings: Complexity and 'The Hotness'**](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
 <center>
@@ -34,6 +38,8 @@ I use a variety techniques to make adjustments to the Geek rating on boardgamege
 [Rankings](https://phenrickson.github.io/bgg_reports/adjusted_ratings_table.html) // [Methodology](https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html)
 
 Last updated: `r Sys.Date()`
+
+---
 
 3. [**Predicting User Collections, or How to Create an Artificial Shut Up and Sit Down**](https://phenrickson.github.io/bgg_reports/upcoming_reviewer_tables.html)
 

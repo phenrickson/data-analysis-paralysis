@@ -15,7 +15,7 @@ Disclaimer: Despite spending more years at Florida State (and being on campus fo
 
 <center>
 
-![](images/team_predictions_2022.png){width=48%} ![](images/playoff_probs_2019.png){width=50%}
+![](images/team_predictions_2022.png){width=40%} ![](images/playoff_probs_2019.png){width=50%}
 
 </center>
 
