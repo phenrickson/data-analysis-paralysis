@@ -11,7 +11,7 @@ I frequently deliver talks at analytics meet ups and organizations throughout th
 
 <center>
 
-![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/now_what_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/now_what_models.png){width=45%}
+![](images/now_what_intro.png){width=45%} ![](images/now_what_models.png){width=45%}
 
 </center>
 
@@ -21,7 +21,7 @@ Organizations increasingly speak about being data-driven, but should this be our
 
 <center>
 
-![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/what_is_science_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/what_is_science_model.png){width=45%}
+![](images/what_is_science_intro.png){width=45%} ![](images/what_is_science_model.png){width=45%}
 
 </center>
 
@@ -31,7 +31,7 @@ Data science is on the roadmap for many organizations and businesses. What exact
 
 <center>
 
-![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/talk_on_talks_intro.png){width=45%} ![](/Users/Phil/Documents/projects/data-analysis-paralysis/images/talk_on_talks_point.png){width=45%}
+![](images/talk_on_talks_intro.png){width=45%} ![](images/talk_on_talks_point.png){width=45%}
 
 </center>
 

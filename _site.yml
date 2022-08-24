@@ -1,12 +1,12 @@
 name: "data-analysis-paralysis"
 output_dir: "."
 navbar:
-  title: "Data Analysis Paralysis"
+  title: "Phil Henrickson"
   left:
     - text: "Board Games"
       href: boardgames.html
-    - text: "AHL"
-      href: ahl.html
+    - text: "College Football"
+      href: cfb.html
     - text: "Talks"
       href: talks.html
     - text: "About Me"
