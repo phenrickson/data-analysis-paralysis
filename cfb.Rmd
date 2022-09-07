@@ -34,8 +34,6 @@ Team Profile Examples
 
 I simulate the remainder of the college football season 1000 times after every week of the regular season. These simulations come from an (adjusted) Elo model that I developed using historical game and play by data - the current iteration of the model uses historical game outcomes, team offensive and defensive efficiency metrics, and recruiting composites in order to estimate a team’s relative rating compared to other teams.
 
-Last Updated: `r Sys.Date()`
-
 2021
 
 [Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_14_2021.html) //
