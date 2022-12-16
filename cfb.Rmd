@@ -23,7 +23,7 @@ Which teams are most likely to win their conference? Make the playoff? Win the n
 
 2022 Postseason
 
-[**Postseason Predictions**](https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_predictions.html)
+[**Bowl Predictions**](https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_matchups.html)
 
 2022 Regular Season
 
