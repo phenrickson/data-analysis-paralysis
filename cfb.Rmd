@@ -1,6 +1,6 @@
 ---
 title: ' '
-pagetitle: "Phil Henrickson"
+pagetitle: Phil Henrickson
 ---
 
 ## College Football Projects {-}
@@ -21,14 +21,17 @@ Disclaimer: Despite spending more years at Florida State (and being on campus fo
 
 Which teams are most likely to win their conference? Make the playoff? Win the national championship? 
 
-2022 Simulations
+2022 Postseason
+
+[**Postseason Predictions**](https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_predictions.html)
+
+2022 Regular Season
 
 [**Team Predictions**](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html) //
 [**Game Predictions**](https://phenrickson.github.io/cfb/simulations/season/2022/matchups.html)
 
 Team Profile Examples
 
-[**Texas A&M**](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Texas%20A&M.html) //
 [**Florida State**](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Florida%20State.html) //
 [**Wisconsin**](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Wisconsin.html)
 
