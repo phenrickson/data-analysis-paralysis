@@ -1,6 +1,6 @@
 ---
-title: " "
-pagetitle: "Phil Henrickson"
+title: ' '
+pagetitle: Phil Henrickson
 ---
 
 # What is this?
@@ -15,7 +15,7 @@ This website serves as a repository for some of my side projects - I love using 
 
 ---
 
-![](images/elo_path.png){width=48%} ![](images/playoff_probs_2019.png){width=45%}
+![](images/elo_path.png){width=48%} ![](images/cfb_preds.png){width=40%}
 
 ---
 
