@@ -13,7 +13,7 @@
 
 <title>Phil Henrickson</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,31 +298,49 @@ $(document).ready(function () {
 
 <div id="talks-ive-given" class="section level2">
 <h2>Talks I’ve Given</h2>
-<p>I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I’ve given in the last few years.</p>
+<p>I frequently deliver talks at analytics meet ups and organizations
+throughout the Midwest. These are a sample of some of the presentations
+I’ve given in the last few years.</p>
 <hr />
 <ol style="list-style-type: decimal">
-<li><a href="https://github.com/phenrickson/talks/blob/main/now_what.pdf"><strong>Now What? Model Building, Science, and Analytics</strong></a></li>
+<li><a
+href="https://github.com/phenrickson/talks/blob/main/now_what.pdf"><strong>Now
+What? Model Building, Science, and Analytics</strong></a></li>
 </ol>
 <center>
-<p><img src="images/now_what_intro.png" style="width:45.0%" /> <img src="images/now_what_models.png" style="width:45.0%" /></p>
+<p><img src="images/now_what_intro.png" style="width:45.0%" /> <img
+src="images/now_what_models.png" style="width:45.0%" /></p>
 </center>
-<p>Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. This, naturally, leads to an exploration of expected goals models in minor league hockey.</p>
+<p>Organizations increasingly speak about being data-driven, but should
+this be our goal? In this talk I discuss philosophy of science and how
+we learn from data. This, naturally, leads to an exploration of expected
+goals models in minor league hockey.</p>
 <hr />
 <ol start="2" style="list-style-type: decimal">
-<li><a href="https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf"><strong>What is this thing called data science?</strong></a></li>
+<li><a
+href="https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf"><strong>What
+is this thing called data science?</strong></a></li>
 </ol>
 <center>
-<p><img src="images/what_is_science_intro.png" style="width:45.0%" /> <img src="images/what_is_science_model.png" style="width:45.0%" /></p>
+<p><img src="images/what_is_science_intro.png" style="width:45.0%" />
+<img src="images/what_is_science_model.png" style="width:45.0%" /></p>
 </center>
-<p>Data science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do?</p>
+<p>Data science is on the roadmap for many organizations and businesses.
+What exactly is data science? What can it do? What can it not do?</p>
 <hr />
 <ol start="3" style="list-style-type: decimal">
-<li><a href="https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf"><strong>The Talk on Talks</strong></a>)</li>
+<li><a
+href="https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf"><strong>The
+Talk on Talks</strong></a>)</li>
 </ol>
 <center>
-<p><img src="images/talk_on_talks_intro.png" style="width:45.0%" /> <img src="images/talk_on_talks_point.png" style="width:45.0%" /></p>
+<p><img src="images/talk_on_talks_intro.png" style="width:45.0%" /> <img
+src="images/talk_on_talks_point.png" style="width:45.0%" /></p>
 </center>
-<p>I’ve given a lot of talks as a professor and as a consultant. This a compilation of advice and lessons I’ve picked up over the years from giving talks. Massively inspired by a presentation my advisor gave in grad school.</p>
+<p>I’ve given a lot of talks as a professor and as a consultant. This a
+compilation of advice and lessons I’ve picked up over the years from
+giving talks. Massively inspired by a presentation my advisor gave in
+grad school.</p>
 </div>
 
 

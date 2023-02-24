@@ -33,7 +33,7 @@ Data science is on the roadmap for many organizations and businesses. What exact
 
 ---
 
-3. [**The Talk on Talks**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf))
+3. [**The Talk on Talks**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf)
 
 <center>
 

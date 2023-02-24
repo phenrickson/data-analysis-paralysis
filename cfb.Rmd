@@ -87,5 +87,3 @@ I then adjust each team's raw efficiency metrics based on the quality of their o
 [Expected Points Methodology](https://phenrickson.github.io/cfb/expected_points_01_model.html) //
 [Examining Individual Plays via Expected Points](https://phenrickson.github.io/cfb/expected_points_02_examine.html) //
 [Opponent Adjusted Expected Points](https://phenrickson.github.io/cfb/expected_points_03_adjusted.html) 
-
-2

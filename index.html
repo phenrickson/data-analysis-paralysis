@@ -13,7 +13,7 @@
 
 <title>Phil Henrickson</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,18 +298,33 @@ $(document).ready(function () {
 
 <div id="what-is-this" class="section level1">
 <h1>What is this?</h1>
-<p>My name is Phil Henrickson and I work as a consulting data scientist in Madison, Wisconsin for AE Business Solutions. I help clients and organizations in the areas of predictive modeling, statistical/machine learning, and data visualization. Prior to consulting, I completed my PhD in political science at Florida State University 2018, where I taught courses on international relations, political violence, and civil war.</p>
-<p>This website serves as a repository for some of my side projects - I love using techniques from data science to (over) analyze the world of boardgames, sports and other things. Click on the links above to check out a few of my projects as well as talks I’ve given at various analytics symposiums.</p>
+<p>My name is Phil Henrickson and I work as a consulting data scientist
+in Madison, Wisconsin for AE Business Solutions. I help clients and
+organizations in the areas of predictive modeling, statistical/machine
+learning, and data visualization. Prior to consulting, I completed my
+PhD in political science at Florida State University 2018, where I
+taught courses on international relations, political violence, and civil
+war.</p>
+<p>This website serves as a repository for some of my side projects - I
+love using techniques from data science to (over) analyze the world of
+boardgames, sports and other things. Click on the links above to check
+out a few of my projects as well as talks I’ve given at various
+analytics symposiums.</p>
 <hr />
-<p><img src="images/averages_and_usersrated.png" style="width:45.0%" /> <img src="images/ridges.png" style="width:40.0%" /></p>
+<p><img src="images/averages_and_usersrated.png" style="width:45.0%" />
+<img src="images/ridges.png" style="width:40.0%" /></p>
 <hr />
-<p><img src="images/elo_path.png" style="width:48.0%" /> <img src="images/playoff_probs_2019.png" style="width:45.0%" /></p>
+<p><img src="images/elo_path.png" style="width:48.0%" /> <img
+src="images/playoff_probs_2019.png" style="width:45.0%" /></p>
 <hr />
 <div id="section" class="section level2">
-<h2><img src="images/separation.png" style="width:48.0%" /> <img src="images/ark_nova.png" style="width:40.0%" /></h2>
-<p><img src="images/now_what_models.png" style="width:48.0%" /> <img src="images/user_model_assessment.png" style="width:40.0%" /></p>
+<h2><img src="images/separation.png" style="width:48.0%" /> <img
+src="images/ark_nova.png" style="width:40.0%" /></h2>
+<p><img src="images/now_what_models.png" style="width:48.0%" /> <img
+src="images/user_model_assessment.png" style="width:40.0%" /></p>
 <hr />
-<p><img src="images/golden_age.png" style="width:48.0%" /> <img src="images/xgboost.png" style="width:40.0%" /></p>
+<p><img src="images/golden_age.png" style="width:48.0%" /> <img
+src="images/xgboost.png" style="width:40.0%" /></p>
 </div>
 </div>
 

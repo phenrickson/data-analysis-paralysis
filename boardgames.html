@@ -13,7 +13,7 @@
 
 <title>Phil Henrickson</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,43 +298,113 @@ $(document).ready(function () {
 
 <div id="board-game-projects" class="section level2 unnumbered">
 <h2 class="unnumbered">Board Game Projects</h2>
-<p>If you love boardgames and data, <a href="https://boardgamegeek.com"><strong>boardgamegeek.com</strong></a> is a treasure chest of data on every boardgame in existence. What can we learn from this data? These are the projects I’ve been working on using techniques from data science with data from BGG.</p>
+<p>If you love boardgames and data, <a
+href="https://boardgamegeek.com"><strong>boardgamegeek.com</strong></a>
+is a treasure chest of data on every boardgame in existence. What can we
+learn from this data?</p>
+<p>The following links display some quick analyses for the data that is
+available from boardgamegeek:</p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/exploratory/outcomes.html"><strong>Community
+Ratings</strong></a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/exploratory/mechanics.html"><strong>Mechanics</strong></a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/exploratory/categories.html">**Categories*</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/exploratory/families.html"><strong>Families</strong></a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/exploratory/publishers.html"><strong>Publishers</strong></a></p>
+<hr />
+<p>These are the projects I’ve been working on using techniques from
+data science with data from BGG.</p>
 <hr />
 <ol style="list-style-type: decimal">
-<li><a href="https://phenrickson.github.io/bgg_reports/upcoming_games_tables.html"><strong>Predicting BGG’s Top Upcoming Games</strong></a></li>
+<li><a
+href="https://phenrickson.github.io/bgg_reports/reports/upcoming_games_tables.html"><strong>Predicting
+BGG’s Top Upcoming Games</strong></a></li>
 </ol>
 <center>
-<p><img src="images/predicting_games.png" style="width:45.0%" /> <img src="images/outcome_coefs.png" style="width:45.0%" /></p>
+<p><img src="images/predicting_games.png" style="width:45.0%" /> <img
+src="images/outcome_coefs.png" style="width:45.0%" /></p>
 </center>
-<p>What upcoming board games are <strong>likely to be popular within the BGG community?</strong> I train a variety of predictive models on historical BGG data in order to estimate a variety of outcomes for newly released games. Why are some games expected to better than others? How accurately can we predict upcoming games? What games are likely to become the new hotness? Take a look to see what the models think.</p>
-<p><a href="https://phenrickson.github.io/bgg_reports/upcoming_games_tables.html">Predictions</a> // <a href="https://phenrickson.github.io/bgg_reports/predicting_bgg_outcomes.html">Methodology</a></p>
-<p>Last updated: 2022-08-23</p>
+<p>What upcoming board games are <strong>likely to be popular within the
+BGG community?</strong> I train a variety of predictive models on
+historical BGG data in order to estimate a variety of outcomes for newly
+released games. Why are some games expected to better than others? How
+accurately can we predict upcoming games? What games are likely to
+become the new hotness? Take a look to see what the models think.</p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/upcoming_games_tables.html">Predictions</a>
+// <a
+href="https://phenrickson.github.io/bgg_reports/reports/predicting_bgg_outcomes.html">Methodology</a></p>
+<p>Last updated: 2023-02-24</p>
 <hr />
 <ol start="2" style="list-style-type: decimal">
-<li><a href="https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html"><strong>Adjusting BGG Ratings: Complexity and ‘The Hotness’</strong></a></li>
+<li><a
+href="https://phenrickson.github.io/bgg_reports/reports/adjusting_bgg_ratings.html"><strong>Adjusting
+BGG Ratings: Complexity and ‘The Hotness’</strong></a></li>
 </ol>
 <center>
-<p><img src="images/averages_and_usersrated.png" style="width:45.0%" /> <img src="images/hotness_adjusted.png" style="width:45.0%" /></p>
+<p><img src="images/averages_and_usersrated.png" style="width:45.0%" />
+<img src="images/hotness_adjusted.png" style="width:45.0%" /></p>
 </center>
-<p>I use a variety techniques to make adjustments to the Geek rating on boardgamegeek.First, I compute <strong>Complexity-Adjusted Ratings</strong> in order to identify which games get the most bang for their complexity buck. I am not the first to develop the method for computing these ratings, which is a very simple statistical model, but I do use that method to keep a list of up-to-date complexity ratings based on my latest pull of games from BGG. Second, I amend the formula for the geek rating to place a greater weight on the popularity of the game, which I have found can mitigate a tendency of the geek ratings to skew towards the ‘the hotness’.</p>
-<p><a href="https://phenrickson.github.io/bgg_reports/adjusted_ratings_table.html">Rankings</a> // <a href="https://phenrickson.github.io/bgg_reports/adjusting_bgg_ratings.html">Methodology</a></p>
-<p>Last updated: 2022-08-23</p>
+<p>I use a variety techniques to make adjustments to the Geek rating on
+boardgamegeek.First, I compute <strong>Complexity-Adjusted
+Ratings</strong> in order to identify which games get the most bang for
+their complexity buck. I am not the first to develop the method for
+computing these ratings, which is a very simple statistical model, but I
+do use that method to keep a list of up-to-date complexity ratings based
+on my latest pull of games from BGG. Second, I amend the formula for the
+geek rating to place a greater weight on the popularity of the game,
+which I have found can mitigate a tendency of the geek ratings to skew
+towards the ‘the hotness’.</p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/adjusting_bgg_ratings.html#3_Examining_Complexity-Adjusted_Games">Rankings</a>
+// <a
+href="https://phenrickson.github.io/bgg_reports/reports/adjusting_bgg_ratings.html">Methodology</a></p>
+<p>Last updated: 2023-02-24</p>
 <hr />
 <ol start="3" style="list-style-type: decimal">
-<li><a href="https://phenrickson.github.io/bgg_reports/upcoming_reviewer_tables.html"><strong>Predicting User Collections, or How to Create an Artificial Shut Up and Sit Down</strong></a></li>
+<li><a
+href="https://phenrickson.github.io/bgg_reports/reports/upcoming_reviewer_tables.html"><strong>Predicting
+User Collections, or How to Create an Artificial Shut Up and Sit
+Down</strong></a></li>
 </ol>
-<p><img src="images/user_separation.png" style="width:45.0%" /> <img src="images/user_predictions_table.png" style="width:45.0%" /></p>
+<p><img src="images/user_separation.png" style="width:45.0%" /> <img
+src="images/user_predictions_table.png" style="width:45.0%" /></p>
 <p>“What upcoming games should I check out?”</p>
-<p>Rather than trying to predict how the boardgamegeek community will rate a game, I train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to <a href="https://phenrickson.github.io/bgg_reports/user_reports/mrbananagrabber_2020.html">train a model to identify games for myself</a>, but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection.</p>
-<p>I’ve run this analysis for a few prominent reviewers to see what upcoming games they’re most likely to be interested in:</p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/Watch_It_Played_2020.html">Watch It Played</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/Gyges_2020.html">Mark Bigney (So Very Wrong About Games)</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/rahdo_2020.html">Richard Ham (rahdo)</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/Quinns_2020.html">Quinns (Shut Up and Sit Down, though his data is a bit out of date)</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/ZeeGarcia_2020.html">Zee Garcia (The Dice Tower)</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/mrbananagrabber_2020.html">me</a></p>
-<p><a href="https://phenrickson.github.io/bgg_reports/user_reports/GOBBluth89_2020.html">my brother</a></p>
-<p>Last updated: 2022-08-23</p>
+<p>Rather than trying to predict how the boardgamegeek community will
+rate a game, I train models at the individual user level to predict
+whether someone will be likely to add an upcoming game to their
+collection. This started as a project to <a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/mrbananagrabber_2020.html">train
+a model to identify games for myself</a>, but then I realized that this
+could be extended to anyone with a boardgamegeek account and a decent
+number of games in their collection.</p>
+<p>I’ve run this analysis for a few prominent reviewers to see what
+upcoming games they’re most likely to be interested in:</p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/Watch_It_Played_2020.html">Watch
+It Played</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/Gyges_2020.html">Mark
+Bigney (So Very Wrong About Games)</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collectionsrahdo_2020.html">Richard
+Ham (rahdo)</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/Quinns_2020.html">Quinns
+(Shut Up and Sit Down, though his data is a bit out of date)</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/ZeeGarcia_2020.html">Zee
+Garcia (The Dice Tower)</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/mrbananagrabber_2020.html">me</a></p>
+<p><a
+href="https://phenrickson.github.io/bgg_reports/reports/user_collections/GOBBluth89_2020.html">my
+brother</a></p>
+<p>Last updated: 2023-02-24</p>
 <!-- 4. [**Finding Boardgame "Neighbors"**]() -->
 </div>
 
