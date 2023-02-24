@@ -30,3 +30,4 @@ vignettes/*.pdf
 # artifacts from building site
 site_libs/
 test_files/
+.Rprofile
