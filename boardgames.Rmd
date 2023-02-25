@@ -17,6 +17,8 @@ The following links display some quick analyses for the data that is available f
 
 [**Families**](https://phenrickson.github.io/bgg_reports/reports/exploratory/families.html)
 
+[**Designers**](https://phenrickson.github.io/bgg_reports/reports/exploratory/designers.html)
+
 [**Publishers**](https://phenrickson.github.io/bgg_reports/reports/exploratory/publishers.html)
 
 ---
