@@ -27,7 +27,4 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 .DS_Store
-# artifacts from building site
-site_libs/
-test_files/
 .Rprofile
