@@ -13,7 +13,7 @@
 
 <title>Phil Henrickson</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -62,7 +62,6 @@ if (window.hljs) {
 
 
 
-
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,9 +82,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -143,15 +139,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -242,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -304,7 +296,26 @@ I’ve given in the last few years.</p>
 <hr />
 <ol style="list-style-type: decimal">
 <li><a
-href="https://github.com/phenrickson/talks/blob/main/now_what.pdf"><strong>Now
+href="https://github.com/phenrickson/talks/blob/main/science_and_bullshit.pdf"><strong>Science
+&amp; Bullshit: What We Can’t Not Know in the Age of
+AI</strong></a></li>
+</ol>
+<center>
+<p><img src="images/science_and_bullshit.png" style="width:45.0%" />
+<img src="images/confusion_matrix.png" style="width:45.0%" /></p>
+</center>
+<p>The technology landscape is full of solutions purporting to use
+artificial intelligence to offer insights and solve problems. Many of
+these claims are essentially snake oil that exploit the hype surrounding
+the term AI: “if AI can do X, AI can do Y”. Data science and machine
+learning can be a tremendous help to organizations, but how do we
+separate <em>science</em> from <em>bull$#@!</em>? In this talk, I argue
+that does not need to be a data scientist to question claims made in the
+language of math and statistics. I discuss the knowledge we must have
+about and questions we must ask in the age of AI.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><a
+href="https://github.com/phenrickson/talks/blob/main/now_what_symposium.pdf"><strong>Now
 What? Model Building, Science, and Analytics</strong></a></li>
 </ol>
 <center>
@@ -313,10 +324,17 @@ src="images/now_what_models.png" style="width:45.0%" /></p>
 </center>
 <p>Organizations increasingly speak about being data-driven, but should
 this be our goal? In this talk I discuss philosophy of science and how
-we learn from data. This, naturally, leads to an exploration of expected
-goals models in minor league hockey.</p>
+we learn from data. I then illustrate the process of building predictive
+models with some of my own side projects: board games and minor league
+hockey.</p>
+<p><a
+href="https://github.com/phenrickson/talks/blob/main/now_what_symposium.pdf">Board
+game version</a></p>
+<p><a
+href="https://github.com/phenrickson/talks/blob/main/now_what.pdf">Minor
+league hockey version</a></p>
 <hr />
-<ol start="2" style="list-style-type: decimal">
+<ol start="3" style="list-style-type: decimal">
 <li><a
 href="https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf"><strong>What
 is this thing called data science?</strong></a></li>
@@ -328,7 +346,7 @@ is this thing called data science?</strong></a></li>
 <p>Data science is on the roadmap for many organizations and businesses.
 What exactly is data science? What can it do? What can it not do?</p>
 <hr />
-<ol start="3" style="list-style-type: decimal">
+<ol start="4" style="list-style-type: decimal">
 <li><a
 href="https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf"><strong>The
 Talk on Talks</strong></a></li>

@@ -9,7 +9,17 @@ I frequently deliver talks at analytics meet ups and organizations throughout th
 
 ---
 
-1. [**Now What? Model Building, Science, and Analytics**](https://github.com/phenrickson/talks/blob/main/now_what.pdf)
+1. [**Science & Bullshit: What We Can't Not Know in the Age of AI**](https://github.com/phenrickson/talks/blob/main/science_and_bullshit.pdf)
+
+<center>
+
+![](images/science_and_bullshit.png){width=45%} ![](images/confusion_matrix.png){width=45%}
+
+</center>
+
+The technology landscape is full of solutions purporting to use artificial intelligence to offer insights and solve problems. Many of these claims are essentially snake oil that exploit the hype surrounding the term AI: "if AI can do X, AI can do Y". Data science and machine learning can be a tremendous help to organizations, but how do we separate *science* from *bull$#@!*? In this talk, I argue that does not need to be a data scientist to question claims made in the language of math and statistics. I discuss the knowledge we must have about and questions we must ask in the age of AI.
+
+2. [**Now What? Model Building, Science, and Analytics**](https://github.com/phenrickson/talks/blob/main/now_what_symposium.pdf)
 
 <center>
 
@@ -17,11 +27,15 @@ I frequently deliver talks at analytics meet ups and organizations throughout th
 
 </center>
 
-Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. This, naturally, leads to an exploration of expected goals models in minor league hockey.
+Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. I then illustrate the process of building predictive models with some of my own side projects: board games and minor league hockey.
+
+[Board game version](https://github.com/phenrickson/talks/blob/main/now_what_symposium.pdf)
+
+[Minor league hockey version](https://github.com/phenrickson/talks/blob/main/now_what.pdf)
 
 ---
 
-2. [**What is this thing called data science?**](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf)
+3. [**What is this thing called data science?**](https://github.com/phenrickson/talks/blob/main/what-is-this-thing-called-data-science.pdf)
 
 <center>
 
@@ -33,7 +47,7 @@ Data science is on the roadmap for many organizations and businesses. What exact
 
 ---
 
-3. [**The Talk on Talks**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf)
+4. [**The Talk on Talks**](https://github.com/phenrickson/talks/blob/main/talk-on-talks.pdf)
 
 <center>
 
